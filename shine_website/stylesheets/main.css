@@ -1,0 +1,40 @@
+/* line 4, ../sass/main.scss */
+section {
+  text-align: center;
+  background: url(../img/shine_pic.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+}
+/* line 13, ../sass/main.scss */
+section .black_filter {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+}
+/* line 22, ../sass/main.scss */
+section article {
+  background: url(../img/bg_shine.svg);
+  width: 370px;
+  height: 360px;
+  margin: 0px auto;
+  z-index: 9999;
+  position: relative;
+}
+/* line 32, ../sass/main.scss */
+section h2 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 65px;
+  padding-top: 70px;
+  text-shadow: 0px 0px 3px #333333;
+}
+/* line 38, ../sass/main.scss */
+section h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 140px;
+  margin: -50px 0px 0px 0px;
+  text-shadow: 0px 0px 3px #333333;
+}

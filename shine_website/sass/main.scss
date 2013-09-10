@@ -1,1 +1,45 @@
 @import "compass/css3";
+
+
+section{
+
+	text-align:center;
+	background:url(../img/shine_pic.jpg) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+	position:relative;
+
+	.black_filter{
+		width:100%;
+		height:100%;
+		background:#000;
+		opacity:0.5;
+		position:absolute;
+	}
+
+
+	article{
+		background:url(../img/bg_shine.svg);
+		width:370px;
+		height:360px;
+		margin:0px auto;
+		z-index:9999;
+		position:relative;
+
+	}
+
+	h2{
+		font-family: 'Clicker Script', cursive;
+		font-size:65px;
+		padding-top:70px;
+		@include text-shadow(0px 0px 3px #333);
+	}
+	h3{
+		font-family: 'Amatic SC', cursive;
+		font-size:140px;
+		margin:-50px 0px 0px 0px;
+		@include text-shadow(0px 0px 3px #333);
+	}
+	
+}
