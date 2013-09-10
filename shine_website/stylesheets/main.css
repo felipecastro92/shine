@@ -4,15 +4,15 @@ section {
   background: url(../img/shine_pic.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
   position: relative;
+  color: #fff;
+  height: 100%;
 }
-/* line 13, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 section .black_filter {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: 0.5;
   position: absolute;
 }
 /* line 22, ../sass/main.scss */
